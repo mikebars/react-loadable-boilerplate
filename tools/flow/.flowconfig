@@ -1,0 +1,21 @@
+[ignore]
+
+[include]
+../../
+
+[libs]
+./flow-typed/
+
+[lints]
+all=error
+
+[options]
+module.name_mapper='^\(client\)+'    -> '<PROJECT_ROOT>/../../source/client'
+module.name_mapper='^\(server\)+'    -> '<PROJECT_ROOT>/../../source/server'
+module.name_mapper='^\(universal\)+' -> '<PROJECT_ROOT>/../../source/universal'
+
+module.name_mapper.extension='gif' -> '<PROJECT_ROOT>/__stubs__/file.stub.flow.js'
+module.name_mapper.extension='ico' -> '<PROJECT_ROOT>/__stubs__/file.stub.flow.js'
+module.name_mapper.extension='jpg' -> '<PROJECT_ROOT>/__stubs__/file.stub.flow.js'
+module.name_mapper.extension='png' -> '<PROJECT_ROOT>/__stubs__/file.stub.flow.js'
+module.name_mapper.extension='svg' -> '<PROJECT_ROOT>/__stubs__/file.stub.flow.js'

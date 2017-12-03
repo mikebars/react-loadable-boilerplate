@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text - snapshot test 1`] = `
+<span
+  className="Text-wouq23-0 eOVhyf"
+/>
+`;

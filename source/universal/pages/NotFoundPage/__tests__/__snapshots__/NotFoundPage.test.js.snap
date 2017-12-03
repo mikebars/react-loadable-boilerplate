@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundPage - snapshot test 1`] = `
+<section
+  className="Page-s1p3nwoa-0 vsRjS"
+>
+  <section
+    className="Center-s9sgb6y-0 eDdsFp"
+  >
+    <span
+      className="Text-wouq23-0 CTCKk"
+      fontSize="10vw"
+    >
+      Not Found Page
+    </span>
+  </section>
+  <section
+    className="Center-s9sgb6y-0 eDdsFp"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <span
+        className="Text-wouq23-0 gWetUQ"
+        fontSize="5vw"
+      >
+        Go to Index Page
+      </span>
+    </a>
+  </section>
+</section>
+`;
