@@ -327,10 +327,15 @@
       "file": "vendor.7e13de789330243364ca.js.map"
     }
   ],
-  "history/PathUtils": [
+  "./PathUtils": [
     {
       "id": 22,
       "name": "./node_modules/history/PathUtils.js",
+      "file": "vendor.7e13de789330243364ca.js"
+    },
+    {
+      "id": 23,
+      "name": "./node_modules/history/es/PathUtils.js",
       "file": "vendor.7e13de789330243364ca.js"
     },
     {
@@ -339,31 +344,24 @@
       "file": "vendor.7e13de789330243364ca.js.map"
     },
     {
+      "id": 23,
+      "name": "./node_modules/history/es/PathUtils.js",
+      "file": "vendor.7e13de789330243364ca.js.map"
+    },
+    {
       "id": 22,
       "name": "./node_modules/history/PathUtils.js",
+      "file": "main.c019253ad78374484985.js"
+    },
+    {
+      "id": 23,
+      "name": "./node_modules/history/es/PathUtils.js",
       "file": "main.c019253ad78374484985.js"
     },
     {
       "id": 22,
       "name": "./node_modules/history/PathUtils.js",
       "file": "main.c019253ad78374484985.js.map"
-    }
-  ],
-  "./PathUtils": [
-    {
-      "id": 23,
-      "name": "./node_modules/history/es/PathUtils.js",
-      "file": "vendor.7e13de789330243364ca.js"
-    },
-    {
-      "id": 23,
-      "name": "./node_modules/history/es/PathUtils.js",
-      "file": "vendor.7e13de789330243364ca.js.map"
-    },
-    {
-      "id": 23,
-      "name": "./node_modules/history/es/PathUtils.js",
-      "file": "main.c019253ad78374484985.js"
     },
     {
       "id": 23,
@@ -5849,7 +5847,7 @@
       "file": "main.c019253ad78374484985.js.map"
     }
   ],
-  "/home/x/Downloads/projects/react-loadable-boilerplate/source/client/entry/clientSideRender.entry.production.js": [
+  "/Users/hadi/kumparan/simple-bolerplate/source/client/entry/clientSideRender.entry.production.js": [
     {
       "id": 212,
       "name": "./source/client/entry/clientSideRender.entry.production.js",

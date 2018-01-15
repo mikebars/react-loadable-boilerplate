@@ -41,7 +41,7 @@ server.listen(process.env.SERVER_PORT, error => {
     console.log(
       `Server listening at http://${process.env.SERVER_HOST}:${
         process.env.SERVER_PORT
-      }`,
+      }`
     )
   }
 })

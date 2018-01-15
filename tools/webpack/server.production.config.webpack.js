@@ -10,7 +10,7 @@ const webpackServerConfig = {
     'babel-polyfill',
     'raf/polyfill',
     resolvePath(
-      '../../source/server/entry/serverSideRender.entry.production.js',
+      '../../source/server/entry/serverSideRender.entry.production.js'
     ),
   ],
   module: {

@@ -29,7 +29,7 @@ server.use(webpackHotMiddleware(webpackClientCompiler))
 server.use(
   webpackHotServerMiddleware(webpackCompiler, {
     serverRendererOptions: { reactLoadableStats },
-  }),
+  })
 )
 
 let __BUILD_COMPLETE__ = false
@@ -46,8 +46,8 @@ webpackCompiler.plugin(
         console.log(
           `Server listening at http://${process.env.SERVER_HOST}:${
             process.env.SERVER_PORT
-          }`,
+          }`
         )
       }
-    }),
+    })
 )
