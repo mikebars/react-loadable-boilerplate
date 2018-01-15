@@ -11,7 +11,7 @@ const webpackClientConfig = {
   entry: {
     main: [
       resolvePath(
-        '../../source/client/entry/clientSideRender.entry.production.js',
+        '../../source/client/entry/clientSideRender.entry.production.js'
       ),
     ],
     vendor: [
